@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', sans-serif; 
+    text-transform: capitalize; 
+    transition: all 0.2s linear; 
+} 
+.header{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 9vh;
+    font-size: 20px;
+    padding: 10px 10px;
+    background-color:  #483D8B;
+    justify-content: space-between;
+}
+.header .seacrh{
+    position: relative;
+    width: 240px;
+}
+.header ul li a:hover{
+    color: #4CAF50;
+    font-size: 20px;
+}
+.seacrh-bar{
+    position: relative;
+    margin: 10px 5px;
+    width: 100%;
+    padding: 10px 10px 10px 20px;
+    border-radius: 40px;
+    border: none;
+    font-size: 14px;
+    transition: 0.6s all ease-in-out;
+}
+.seacrh-bar:focus-visible{
+    outline:none;
+    box-shadow: 0px 0px 6px 6px;
+}
+.header ul{
+   display: flex;
+  
+   
+   
+}.header ul li{
+    list-style-type: none;
+    text-transform: capitalize;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+    text-transform: capitalize;
+    padding: 0px 0px;
+    margin: 15px;
+    float: inline-start;
+    
+}
+
+
+.overall{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 13vh;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background-color: rgb(253, 247, 247);
+}
+.overall .head ul li a:hover{
+color: rgb(55, 0, 255);
+    font-size: 20px;
+}
+.head ul{
+        display: flex; 
+}
+.head ul li{
+    margin-left:50px;
+    list-style-type: none;
+    padding: 20px;
+    margin: 30px;
+}
+
+.head ul li a{
+    text-decoration: none;    font-size: 27px;
+    color: black; 
+}
+.contact a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #1b2945;
+}
+.contact a:hover{
+    font-size:20px;
+    color:black ;
+}
+.full{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-image:url(image/fast.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top,center;
+    background-size: 100%;
+    justify-content: space-between;
+    padding:10px 30px;  
+    color: rgb(10, 10, 10);
+    
+    
+}
+.full h4{
+    margin: 60px;
+    padding: 70px;
+    font-size: 40px;
+    text-align: justify;
+    
+}
+.full h2{
+    font-size: 80px;
+    text-align: center;
+}
+
+.per p{
+    margin: 20px 0;
+    font-size: 14px;
+}
+.both {
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+   
+    
+}
+.both p{
+    font-size: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.line ul li{
+    gap: 19px;
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 100px;
+    list-style-type: none;
+    
+}
+.vision h3{
+    position: relative;
+    font-size: 20px;
+    margin: 20px 0;
+    text-align: justify;
+
+
+}
+.vision p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.obj h3{
+    font-size: 20px;
+    margin: 20px 0;
+    text-align: justify;
+}
+.main p{
+    font-size: 14px;
+    margin: 20px 0;
+}
+.line2{
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    font-size: 14px;
+}
+.line2 ul li{
+    gap: 19px;
+    font-size: 14px;
+}
+
+.row1{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background:#1b2945;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 10px;
+    
+    
+}
+.row1 .col-lg-3 ul li{
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    text-wrap: wrap;
+    font-size: 14px;
+    transition: all 0.2s linear;
+    margin: 5px 0;
+    color: #fff;
+}
+.row1 .col-lg-3 ul li:hover{
+    font-size: 20px;
+}
+.row1 .col-lg-3 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.row1 .col-lg-3 ul p{
+     font-size: 20px;
+     color: #b9c839;
+}
+.bg-dark-1  h6{
+    text-align: justify;
+    background-color: #483D8B;
+    padding: 18px;
+    font-size: smaller;
+    color: #fff;
+}
+
+
+
+
+

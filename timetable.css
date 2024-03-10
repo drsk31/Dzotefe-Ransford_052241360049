@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none; 
+    font-family: 'Gerogia', sans-serif; 
+    text-transform: capitalize; 
+    transition: all 0.2s linear; 
+    font-size: 14px;
+} 
+
+.header{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 8vh;
+    font-size: 14px;
+    padding: 10px 10px;
+    background-color: #483D8B;
+    justify-content: space-between;
+    
+}
+.header .seacrh{
+    position: relative;
+    width: 240px;
+    
+}
+.seacrh-bar{
+    position: relative;
+    margin: 10px;
+    width: 100%;
+    padding: 10px 10px 10px 20px;
+    border-radius: 40px;
+    border: none;
+    font-size: 14px;
+    transition: 0.6s all ease-in-out;
+    align-items: center;
+}
+.seacrh-bar:focus-visible{
+    outline:none;
+    box-shadow: 0px 0px 6px 6px #f9faf9;
+}
+.header ul{
+   display: flex;
+  
+   
+   
+}.header ul li{
+    list-style-type: none;
+    text-transform: capitalize;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+    text-transform: capitalize;
+    padding: 0px 0px;
+    margin: 10px;
+    float: inline-start; 
+}
+.header ul li a:hover{
+    color: #f5f9f6;
+    font-size: 20px;
+}
+
+
+.overall{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 13vh;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background-image:url(image/clock.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overall .head ul li a:hover{
+    color: rgb(55, 0, 255);
+    font-size: 20px;
+}
+.head ul{
+        display: flex; 
+}
+.head ul li{
+    margin-left:50px;
+    list-style-type: none;
+    padding: 20px;
+    margin: 30px;
+}
+
+.head ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    
+}
+
+.contact a:hover{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-size: 20px;
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    
+}
+.container1 {
+    position: relative;
+   padding: 20px 10px;
+   text-align:center;
+   
+}
+
+
+
+
+#button {
+    background-color: rgb(233, 17, 17);
+    border-radius: 5px;
+    margin-left: 1555px;
+    margin-bottom: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+main{
+    
+    margin: 0 auto;
+    padding: 20px;
+    border:1px solid black ;
+    box-shadow: inset;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    
+
+}
+.table1 ,th ,td ,tr{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    color: black;
+}
+.table1 ,h1,p{
+    text-align: center;
+    font-size: 14px;
+}
+.row1{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background:#1b2945;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 10px;
+    
+    
+}
+.row1 .col-lg-3 ul li{
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    text-wrap: wrap;
+    font-size: 14px;
+    transition: all 0.2s linear;
+    margin: 5px 0;
+    color: #fff;
+}
+.row1 .col-lg-3 ul li:hover{
+    font-size: 20px;
+}
+.row1 .col-lg-3 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.row1 .col-lg-3 ul p{
+     font-size: 14px;
+     color: #b9c839;
+}
+.bg-dark-1  h6{
+    text-align:justify;
+    background-color: #483D8B;
+    padding: 18px;
+    font-size: smaller;
+    color: #fff;
+}
